@@ -1,0 +1,19 @@
+{
+    "name": "pxlcore/sql-anywhere-client",
+    "description": "Client for connection with sybase",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephan Rennert",
+            "homepage": "https://github.com/pxlcore/"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pxlcore": "src/"
+        }
+    }
+}
