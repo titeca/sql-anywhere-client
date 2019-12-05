@@ -26,7 +26,7 @@ class SQLAnywherePrepared
 	 * @param  array  $data  The variable references.
 	 * @return boolean       TRUE if binding the variables was successful or FALSE otherwise.
 	 */
-	public function bindParam($mixed, &$variable, $type = null, $lenght = null) {
+	public function bindValue($mixed, &$variable, $type = null, $lenght = null) {
 		if(is_string($mixed))
 			$this->__boundParams[$mixed] = $variable;
 		else
